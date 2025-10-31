@@ -110,7 +110,7 @@ Generate API test cases to validate all CRUD operations of the Products API with
 
 Generate manual test cases for each function in product controller based on acceptance criteria from #file:products-acceptance.md
 
-Build automation test in Javascript for testing an e-commerce website’s login, add to cart, and checkout flow. Define classes for page objects, utility functions, and test cases.
+Build automation test in Javascript for testing an e-commerce website's login, add to cart, and checkout flow. Define classes for page objects, utility functions, and test cases.
 
 Create Cypress end-to-end tests for a React-based todo app. Write test cases for adding, deleting, marking complete, and filtering todos. Include folder structure, sample test cases, and configuration setup.
 
