@@ -46,7 +46,7 @@ As a full stack developer, create a full-stack web application for a task manage
 
 **Prompts:**
 
-Use Readme.md file
+Use Readme.md
 
 Recommend a technology stack suitable for implementing these requirements.
 
@@ -82,6 +82,8 @@ Review the code and provide me comments so that my code would be more readable a
 
 Review this product API and suggest how to optimize response structure for frontend performance. And add pagination and filtering to the product listing endpoint.
 
+Use ProductsController.cs
+
 Explain how to implement API versioning using custom request headers in spring Boot.
 
 ---
@@ -91,6 +93,8 @@ Explain how to implement API versioning using custom request headers in spring B
 **Prompts:**
 
 Help me to create a ProductCard component with proper accessibility and responsive design.
+
+Use ProductService.cs 
 
 Create a TypeScript API service for product management that 
 1. Uses axios with interceptors
@@ -108,7 +112,9 @@ Generate API test cases to validate all CRUD operations of the Products API with
 
 /tests Generate unit tests for this function. Validate both success and failure, and include edge cases.
 
-Generate manual test cases for each function in product controller based on acceptance criteria from #file:products-acceptance.md
+Generate manual test cases for each function in product controller based on acceptance criteria.
+
+Use products-acceptance.md
 
 Build automation test in Javascript for testing an e-commerce website's login, add to cart, and checkout flow. Define classes for page objects, utility functions, and test cases.
 
