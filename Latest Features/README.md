@@ -44,6 +44,8 @@ As a full stack developer, create a full-stack web application for a task manage
 
 ### Project Managers
 
+**Prompts:**
+
 Use Readme.md file
 
 Recommend a technology stack suitable for implementing these requirements.
@@ -57,6 +59,8 @@ Share the best practices to develop e-commerce API application.
 ---
 
 ### Developer
+
+**Prompts:**
 
 Design a Spring Boot microservice to manage product inventory. Include REST endpoints, service classes, repositories using JPA, and model classes. Show how to organize the project and include unit tests using JUnit and Mockito and create a workspace for the application.
 
@@ -74,6 +78,8 @@ Review the code and provide me comments so that my code would be more readable a
 
 ### API Developers
 
+**Prompts:**
+
 Review this product API and suggest how to optimize response structure for frontend performance. And add pagination and filtering to the product listing endpoint.
 
 Explain how to implement API versioning using custom request headers in spring Boot.
@@ -81,6 +87,8 @@ Explain how to implement API versioning using custom request headers in spring B
 ---
 
 ### UI Developers
+
+**Prompts:**
 
 Help me to create a ProductCard component with proper accessibility and responsive design.
 
@@ -95,6 +103,8 @@ Generate API test cases to validate all CRUD operations of the Products API with
 ---
 
 ### QA Engineers
+
+**Prompts:**
 
 /tests Generate unit tests for this function. Validate both success and failure, and include edge cases.
 
@@ -111,6 +121,8 @@ Create a Postman collection with tests for a REST API that manages tasks: POST /
 ---
 
 ### Database Engineers
+
+**Prompts:**
 
 Design a MySQL database schema for an online learning platform with tables for users, courses, lessons, quizzes, enrollments, submissions, grades, and feedback. Ensure relationships are defined between instructors, students, and their respective learning activities. Include timestamps and foreign keys where appropriate.
 
@@ -130,6 +142,8 @@ Create a project level database documentation.
 ---
 
 ### DevSecOps Engineers
+
+**Prompts:**
 
 Design a DevOps automation script using Python that automates Docker container builds, runs security scans with Trivy, and pushes to AWS ECR. Add relevant classes and functions, and list required dependencies.
 
