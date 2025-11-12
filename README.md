@@ -36,7 +36,7 @@ Create an HTML page that shows book recommendations with title, rating, descript
 
 ## Role-Based Prompt
 
-As a full stack developer, create a full-stack web application for a task management system using React for frontend and Node.js + Express for backend. Include user authentication, CRUD operations for tasks, and API routes. Suggest how to structure the project and define key classes and functions. And walk me through the entire application.
+As a full stack developer, create a full-stack web application for a task management system using React for frontend and Node.js + Express for backend. Include user authentication, CRUD operations for tasks, and API routes. Suggest how to structure the project and define key classes and functions. And explain the entire application.
 
 ---
 
@@ -46,7 +46,7 @@ As a full stack developer, create a full-stack web application for a task manage
 
 **Prompts:**
 
-Use Readme.md
+Use Readme.md file
 
 Recommend a technology stack suitable for implementing these requirements.
 
