@@ -60,6 +60,7 @@ GLips/Figma-Context-MCP: MCP server to provide Figma layout information to AI co
 ### Usage
 Provide the design URL in Copilot Chat and use prompts like:
 - "Generate responsive code for this design and add a quote. Change the background color to rose and add a quote."
+- "Detect UI design changes in Figma and create corresponding implementation tasks in Jira."
 
 ---
 
@@ -88,6 +89,9 @@ Provide the design URL in Copilot Chat and use prompts like:
 
 ### Starting the Server
 In VS Code, start the Atlassian MCP server by using the HTTP URL: `https://mcp.atlassian.com/v1/sse`
+
+Prompt:
+Generate a Jira ticket for all the pending bugs listed in this file using the Jira MCP server.
 
 ---
 
@@ -151,3 +155,5 @@ microsoft/playwright-mcp: Playwright MCP server
 
 ### Usage
 Provide a web page snapshot and use prompts with actions like `browser_click`, `browser_hover`. Copilot will fetch the summary and perform actions.
+
+Create Playwright tests for the complete product checkout workflow, including adding items to cart, applying coupons, entering shipping details.
