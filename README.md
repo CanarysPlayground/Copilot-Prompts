@@ -44,10 +44,13 @@ As a system architect, design a complete application for managing products in an
 ## Github Copilot CLI Prompts
 
 Write a python program to create variables for storing user details.
+
 Generate Custom instructions which follows Python coding standards.
+
 Suggest improvements to content.js.
 
 copilot -p "Revert the last commit" --allow-all-tools
+
 copilot -p "Show me this week's commits and summarize them" --allow-tool 'shell(git)' npm11
 
 
