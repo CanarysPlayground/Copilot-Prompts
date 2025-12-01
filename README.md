@@ -38,7 +38,18 @@ Create an HTML page that shows book recommendations with title, rating, descript
 
 As a full stack developer, create a full-stack web application for a task management system using React for frontend and Node.js + Express for backend. Include user authentication, CRUD operations for tasks, and API routes. Suggest how to structure the project and define key classes and functions. And explain the entire application.
 
+As a system architect, design a complete application for managing products in an e-commerce platform. Include user login, roles, product creation, editing, deletion, inventory tracking, and search. Explain how to structure the application, key modules, data models, workflows, and how each layer will communicate. Provide a full walkthrough of how users and admins interact with the system.
+
 ---
+## Github Copilot CLI Prompts
+
+Write a python program to create variables for storing user details.
+Generate Custom instructions which follows Python coding standards.
+Suggest improvements to content.js.
+
+copilot -p "Revert the last commit" --allow-all-tools
+copilot -p "Show me this week's commits and summarize them" --allow-tool 'shell(git)' npm11
+
 
 ## Persona-Specific Use Cases
 
@@ -73,6 +84,19 @@ Define RESTful API endpoints, Vue components, and how to manage state. Provide a
 Help me build a React web application for booking movie tickets. Use Redux for state management. Suggest component structure, utility functions, actions/reducers, and API integration flow.
 
 Review the code and provide me comments so that my code would be more readable and understandable.
+
+Add input validation and meaningful error messages to this method.
+Show me how to implement retry logic for this HTTP client using best practices.
+
+Generate a reusable function in JavaScript that handles user authentication with error handling.
+
+Identify potential security issues in this code and suggest mitigation steps.
+
+Generate a clear technical document in .md file explaining how this API endpoint works, including purpose, inputs, outputs, and example usage.
+
+Create an HTML page that shows book recommendations with title, rating, description, and poster image for each Book.
+
+
 
 ---
 
@@ -123,6 +147,13 @@ Create Cypress end-to-end tests for a React-based todo app. Write test cases for
 Design a JMeter test plan to load test the /api/tasks endpoint of a task management system. Simulate 100 concurrent users performing GET, POST, and DELETE requests over a 5-minute duration. Include assertions for response time < 2s and 95th percentile latency.
 
 Create a Postman collection with tests for a REST API that manages tasks: POST /tasks, GET /tasks, PUT /tasks/:id, and DELETE /tasks/:id. Include tests for status code, response time, and response structure.
+
+Create test cases that cover edge conditions for this login API including invalid tokens and expired sessions.
+
+Generate mock objects for this database repository to support isolated unit testing.
+
+Generate unit tests for this service method using jest and include both positive and negative scenarios.
+Improve this function and ensure consistent logging format across the file.
 
 ---
 
