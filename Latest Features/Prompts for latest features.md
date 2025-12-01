@@ -8,7 +8,7 @@
 
 **Prompt:**
 ```
-Implement API versioning for all the controllers. Use URL path-based versioning (e.g., /api/v1/products, /api/v2/products) and update the README file.
+Analyze the files and specify the required improvements.
 ```
 
 ---
@@ -40,8 +40,6 @@ Requirements:
 - Add user-friendly navigation and clean UI design
 ```
 
----
-
 ### 2. JavaScript Task Manager Application
 
 **Prompt:**
@@ -49,7 +47,6 @@ Requirements:
 Create a JavaScript task manager app by including CRUD tasks.
 
 ```
-
 ---
 
 ## Model Context Protocol (MCP) Examples
@@ -80,8 +77,9 @@ Please create a comprehensive issue that describes the workflow improvements nee
 
 **Prompt:**
 ```
-Open a PR to implement categories with CRUD endpoints.
+1. Open a PR to implement categories with CRUD endpoints.
 
+2. Add basic null-check validation for the CreateUser endpoint in UserController.
 ```
 
 ---
@@ -101,6 +99,8 @@ Write a Java class to handle leave requests. It should take employee ID, type of
 **Prompt:**
 ```
 Generate a Java program that records daily work logs with date, description of work done, and hours spent.
+
+3. Create a Product class with a constructor that sets Id, Name, and Price.
 
 ```
 
